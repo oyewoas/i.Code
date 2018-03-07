@@ -91,21 +91,79 @@
         </div>
         <div class="container" id="socialicons">
             <div class="row">
-                <div class="col-md-12">
-                    <a href="http://www.facebook.com/oyewoas" class="fa fa-facebook socicons" id=""></a>
-                    <a href="http://www.twitter.com/oyewoas" class="fa fa-twitter socicons" id=""></a>
-                    <a href="http://www.github.com/oyewoas" class="fa fa-github socicons" id=""></a>
-                    <a href="http://www.linkedin.com/oyewoas" class="fa fa-linkedin socicons" id=""></a>
 
+                <div class="col-md-2 facebook">
+                    <a href="http://www.facebook.com/oyewoas" target="_blank" id="facebook">
+                        <img src="images/facebook.png" width="50px" height="50px" title="Click to check my facebook profile" alt="facebook icon"></a>
                 </div>
+                <div class="col-md-2 socicons">
+                    <a href="http://www.twitter.com/oyewoas" target="_blank" id="twitter">
+                        <img src="images/twitter.png" width="50px" height="50px" title="Click to check my twitter profile" alt="twitter icon"></a>
+                </div>
+                <div class="col-md-2 socicons">
+                    <a href="http://github.com/oyewoas" target="_blank" id="github">
+                        <img src="images/GitHub-Mark-120px-plus.png" width="50px" height="50px" title="Click to check my github profile" alt="github icon"></a>
+                </div>
+                <div class="col-md-2 socicons">
+                    <a href="http://www.linkedin.com/oyewoas" target="_blank" id="linkedin">
+                        <img src="images/linkedin.png" width="50px" height="50px" title="Click to check my linkedin profile" alt="linkedin icon"></a>
+                </div>
+                <div class="col-md-2 socicons">
+                    <a href="" target="_blank" id="badoo">
+                        <img src="images/badoo.png" width="50px" height="50px" alt=""></a>
+                </div>
+                <div class="col-md-2 socicons">
+                    <a href="" target="_blank" id="instagram">
+                        <img src="images/instagram.png" width="50px" height="50px" title="Click to check my instagram account" alt=" instagram icon"></a>
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md-5">
+                <form action="" id="formset" method="post">
+                    <legend>Need my Expertise? fill this:</legend>
+
+
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" name="Fullname">
+                    <label for="email">Email:</label>
+                    <input type="text" name="Email">
+                    <label for="phonenumber">Phone Number:</label>
+                    <input type="text" name="Phonenumber">
+                    <label for="fullname">Address:</label>
+                    <input type="text" name="Adress">
+                    <label for="services">Service:</label>
+
+                    <select name="Servic" id="services">
+                        <option>Web Design(Front-End)</option>
+                        <option>Web Development(Backend)</option>
+                    </select>
+
+                    <!-- <label for="webdesign">Web Design(Front-End):</label>
+                    <input type="checkbox" name="Web Design(Front-End)" id="webdesign">
+                    <label for="webdev">Web Development(backend)</label>
+                    <input type="checkbox" name="Web Development(backend)" id="webdev"> -->
+                    <button type="submit" id="request" onclick="ff();">Request</button>
+
+                </form>
+            </div>
+            <div class="col-md-7">
 
             </div>
 
         </div>
+
     </main>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery3.2.1.min.js"></script>
     <script src="js/special.js"></script>
+
 </body>
+
+</html>

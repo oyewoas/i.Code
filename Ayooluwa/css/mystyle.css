@@ -13,6 +13,10 @@ p {
     font-size: 18px;
 }
 
+legend {
+    font-size: 19px;
+}
+
 #mainav {
     display: flex;
 }
@@ -123,8 +127,26 @@ roundimg {
     margin-top: 30px;
 }
 
+
+/* reducing margin between social icons */
+
 .socicons {
-    margin-right: 10px;
+    margin-left: -130px;
+}
+
+@media only screen and (max-width: 700px) {
+    .socicons,
+    .facebook {
+        margin: 10px;
+    }
+}
+
+.socicons :hover {
+    opacity: 0.8;
+}
+
+.facebook:hover {
+    opacity: 0.8;
 }
 
 
@@ -250,4 +272,43 @@ roundimg {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#formset {
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+#formset>input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 4px rgb(184, 178, 178);
+    border-radius: 4px;
+}
+
+form {
+    border: 6px rgb(184, 178, 178);
+    border-radius: 6px;
+}
+
+#request {
+    background-color: rgb(78, 131, 230);
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 16px;
+}
+
+#webdev {
+    position: left;
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 12px;
 }

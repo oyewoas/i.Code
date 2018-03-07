@@ -34,3 +34,6 @@
 // span.onclick = function() {
 //     modal.style.display = "none";
 // }
+function ff() {
+    alert("Thank you very much, I will get back to you soon!");
+}
